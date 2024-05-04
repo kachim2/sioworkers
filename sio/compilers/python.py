@@ -21,7 +21,7 @@ class PYCompiler(Compiler):
 
 
 def run_py_default(environ):
-    return FPCCompiler.pycmp().compile(environ)
+    return PYCompiler.pycmp().compile(environ)
 
 
 
