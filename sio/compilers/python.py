@@ -11,7 +11,7 @@ class PYCompiler(Compiler):
 
     def _make_cmdline(self, executor):
         # Additional sources are automatically included
-        return ['python3', 'a.py'] + self.options + list(self.extra_compilation_args)
+        return ['pyinstaller', 'a.py'] + self.options + list(self.extra_compilation_args)
 
     @classmethod
     def pycmp(cls):
