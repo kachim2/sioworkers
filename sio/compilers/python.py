@@ -15,7 +15,7 @@ class PYCompiler(Compiler):
 
     @classmethod
     def pycmp(cls):
-        obj = cls('python3.11.2-numpy_amd64')
+        obj = cls('python3.9.2-numpy_amd64')
         obj.options = ['--onefile', '-o', 'a']
         return obj
 
