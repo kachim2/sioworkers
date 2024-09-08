@@ -75,7 +75,7 @@ setup(
             'g++4_8_2_cpp11 = sio.compilers.gcc:run_cpp_gcc4_8_2_cpp11',
             'fpc2_6_2 = sio.compilers.fpc:run_pas_fpc2_6_2',
             'java1_8 = sio.compilers.java:run_java1_8',
-            'python3_11.2 = sio.compilers.python:run_python3_11.2'
+            'python3_11 = sio.compilers.python:run_python3_11'
 
             # Non-sandboxed compilers
             'system-gcc = sio.compilers.system_gcc:run_gcc',
