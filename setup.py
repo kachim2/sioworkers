@@ -19,7 +19,7 @@ python23_universal_requirements = [
     'Twisted==20.3.0',
     'sortedcontainers==2.1.0',
     'six',
-    'pytest>=4.6,<4.7',
+    'pytest>=4.6',
     'pytest-runner==5.1',
     'pytest-timeout==1.3.3',
     'urllib3<2.0',  # urllib3 will drop support for python2 in version 2.0.
