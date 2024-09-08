@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 class PythonCompiler(Compiler):
     lang = 'py'
     output_file = 'a.tar'
-    python = 'python3.11.2'
+    python = 'python3.9.2'
     sandbox = '%s-numpy_amd64' % python
 
     def _make_filename(self):
@@ -128,4 +128,4 @@ def run(environ):
 
 run_default = run
 run_py_default = run
-run_python_3_11 = run
+run_python_3_9 = run
