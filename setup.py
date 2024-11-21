@@ -56,7 +56,7 @@ setup(
             'g++4_8_2_cpp11 = sio.compilers.gcc:run_cpp_gcc4_8_2_cpp11',
             'fpc2_6_2 = sio.compilers.fpc:run_pas_fpc2_6_2',
             'java1_8 = sio.compilers.java:run_java1_8',
-
+            'python = sio.compilers.python:run'
             # Non-sandboxed compilers
             'system-gcc = sio.compilers.system_gcc:run_gcc',
             'system-g++ = sio.compilers.system_gcc:run_gplusplus',
@@ -74,7 +74,7 @@ setup(
             'default-cpp = sio.compilers.gcc:run_cpp_default',
             'default-pas = sio.compilers.fpc:run_pas_default',
             'default-java = sio.compilers.java:run_java_default',
-
+            
             ####################################
             # Deprecated, should be removed after 01.01.2021
             # Sandboxed compilers:
